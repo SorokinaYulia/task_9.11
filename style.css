@@ -1,0 +1,38 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1662229833471-3d3fed3d5bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.container {
+
+    margin-top: 100px;
+    box-shadow: 0, 0, 100px;
+}
+
+.card-header {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:5px;
+    font-size: 30px;
+}
+
+.card-header {
+    background-color: rgb(62, 170, 170);
+}
+
+.card-header::first-letter {
+    color:rgb(238, 17, 17);
+}
+
+.card-footer {
+
+    background-color: rgb(241, 176, 96);
+}
+
+#btnRetry {
+    color: rgb(31, 29, 32);
+    font-weight: bolder;
+    font-size: large;
+}
